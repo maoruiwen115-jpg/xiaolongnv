@@ -27,8 +27,10 @@ Things like:
 
 ### TTS
 
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
+- **Preferred voice**: "Tingting" (温柔中文女声) — 用于新闻摘要播报
+- Fallback: "Shelley" (中文大陆女声)
+- 生成命令: `say -v "Tingting" -o /tmp/output.m4a "文本内容"`
+- 发送: 先上传飞书file接口，再发audio消息
 ```
 
 ## Why Separate?
